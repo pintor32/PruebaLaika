@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* header */
+
+.up-header {
+    background-color: black;
+    color: #fff;
+    width: 100vw;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.up-header ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+header {
+    background-color: #603e85;
+    width: 100vw;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .top-header {
+    width: 90vw;
+}
+
+.options-header ul li {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.Logo {
+    width: 70px;
+}
+
+.searchbar {
+    margin: auto;
+    width: 170%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.searchbar div input {
+    width: 80%;
+    padding: 5px;
+}
+
+section img {
+    display: block;
+    width: 100vw;
+}
+
+/* main */
+
+.home {
+    background: white;
+    width: 95vw;
+    margin: auto;
+}
+
+
+footer {
+    text-align: center;
+    color: #603e85;
+    background-color: white;
+    padding: 100px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+footer section {
+    text-align: left;
+    margin: top;
+    margin-right: 30px;
+    color: #603e85;
+}
+
+footer section img {
+    width: 130px;
+}
+
+.down-footer {
+    width: 100vw;
+    padding: 10px;
+    text-align: center;
+    background-color: #f0f1f3;
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+
+.down-footer img {
+    margin-right: 15px;
+    margin-bottom: 1px;
+}
+
+/* media querys */
+
+@media (min-width: 481px) {}
+
+@media (min-width: 768px) {}
